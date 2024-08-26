@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Challenger Enciptador</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="./css/reset.css">
+        <link rel="stylesheet" href="./css/style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,700;1,14..32,700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <div class="header">
+                <img class="header__logo" src="./imagenes/logoalura.svg" alt="">
+            </div>
+        </header>
+        <main >
+            <div class="main">
+                <div class="left" id="left">
+                    <textarea id="ingreseTexto" class="ingrese__texto" id="" placeholder="Ingrese Texto Aqui"></textarea>
+                    <div class="left__footer">
+                            <img src="./imagenes/exclamacion.svg" alt="Ningún mensaje fue encontrado. Ingresa el texto que desees encriptar o desencriptar.">
+                           <span class="left__info">Solo letras minúsculas y sin acento</span>
+                            <div class="left__botones">
+                                <button id="boton__encriptar" class="boton__encriptar">Encriptar</button>
+                                <button  id="boton__desencriptar" class="boton__desencriptar">Desencriptar</button>
+                            </div>
+                    </div>
+                </div>
+                <div class="right" id="right">
+                    <img id="munecoM" class="muneco" src="./imagenes/muñeco.svg" alt="">
+                    <p id="mensajeFinal" class="mensaje__final">Ningún mensaje fue encontrado</p>
+                    <p id="textoInformativo" class="right__info">Ingresa el texto que desees encriptar o desencriptar</p>
+                    <button id="boton__copiar" class="boton__copiar bn_ocultar" >Copiar</button>
+                </div>
+            </div>
+        </main>
+      <!--   <footer>
+        </footer> -->
+        <script src="./js/script.js" async defer></script>
+    </body>
+</html>
