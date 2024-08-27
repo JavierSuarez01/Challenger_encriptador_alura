@@ -133,10 +133,15 @@ body{
     pointer-events: none;
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
-    font-weight: 700;
+    font-weight: 400;
     font-style: normal;
 }
+.mensaje__final::placeholder{
+    color: var(--color-blue);
+}
 .mensaje__final.ajustar{
+    font-weight: lighter;
+    text-align: left;
     height: 80%;
 }
 .right__info{
@@ -153,16 +158,18 @@ body{
     display: none;
 }
 
-
-.footer{
-    background-color: var(--color-terceario);
-    font-family: var(--fuente-montserrat);
+/* .p_footer{
+    background-color: var(--color-blue);
+    /* font-family: var(--fuente-montserrat); 
+    position: absolute;
+    width: 100%;
+    height: 40px;
     font-size: 1.5rem;
     padding: 1.5rem;
-    color: var(--color-primario);
+    color: #FFFFFF;
     text-align: center;
     font-weight: 400;
-}
+} */
 @media screen and ( max-width: 800px){
     .main{
         grid-template-columns: 1fr;
@@ -206,3 +213,4 @@ body{
 		font-size: 12px;
 	}
 }
+
