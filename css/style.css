@@ -154,10 +154,15 @@ body{
 }
 
 
-/* footer{
-    height: 50px;
-    background: yellow;
-} */
+.footer{
+    background-color: var(--color-terceario);
+    font-family: var(--fuente-montserrat);
+    font-size: 1.5rem;
+    padding: 1.5rem;
+    color: var(--color-primario);
+    text-align: center;
+    font-weight: 400;
+}
 @media screen and ( max-width: 800px){
     .main{
         grid-template-columns: 1fr;
